@@ -1,32 +1,31 @@
 # Carlos Vinicius
 
-Backend engineer who ends up one layer below wherever everyone else stops. I like systems that are simple to reason about and fast because of it — not because of what's stacked on top.
+Backend engineer who ends up one layer below wherever everyone else stops. I like understanding how things work by rebuilding them — a compiler, a query optimizer, a rendering engine — instead of just consuming the abstraction.
 
-Based in Fortaleza, Brazil. Currently building backend platform at **[Sunne](https://github.com/Sunne-Team)**.
+Based in Fortaleza, Brazil. Backend engineer at **[Sunne](https://github.com/Sunne-Team)**.
 
-## What I actually spend time on
+## What the commits actually show
 
-- **Systems & low-level** — reimplementing things from scratch to understand them: a Wallpaper Engine clone in Rust over Vulkan/Wayland, an embedded VPN client speaking the raw Tailscale/WireGuard wire protocol on an ESP32 with ~100KB of SRAM to work with.
-- **Backend architecture** — Go and Clean Architecture for services that need to stay correct as they grow, without turning into a framework demo.
-- **Tooling** — CLI tools, GitHub Actions, and dev-environment setups that remove a manual step from someone else's workflow, including my own.
-- **Fundamentals** — OS scheduling/paging, query processing and relational algebra, compilers, data structures — the stuff that doesn't go stale when the framework of the year changes.
+- **Systems programming** — [Rustpaper](https://github.com/ViniciusDev26/Rustpaper), a Wallpaper Engine reimplementation in Rust: a multi-layer scene compositor, a particle system (sprite-sheet animation, additive blending, turbulence), and a CI pipeline with its own Docker build image, clippy and fmt gates.
+- **Language & database internals** — a hand-written [compiler](https://github.com/ViniciusDev26/ts-compiler) (lexer → parser → AST → codegen, with functions, control flow, and closures over parameters) and a [SQL query processor](https://github.com/ViniciusDev26/query-processor) with a real relational-algebra optimizer: projection push-down, join reordering, CROSS JOIN support, four heuristic optimization passes.
+- **Backend & product engineering** — [Costify](https://github.com/ViniciusDev26/costify) (Go + React, DDD) computes real product cost/pricing for small food businesses — recipes, margins, tax, card fees — end to end from auth to billing. [Cashly](https://github.com/ViniciusDev26/cashly) (Go + TypeScript) models the genuinely annoying parts of personal finance: installments, credit-card invoice cycles, and transaction-group edits, backed by integration tests against a real Postgres.
+- **Infra & tooling** — [homelab](https://github.com/ViniciusDev26/homelab): self-hosted file server with encrypted incremental backups (restic → R2), systemd units, and documented failover networking. [er-diagram](https://github.com/ViniciusDev26/er-diagram): a published GitHub Action that generates ER diagrams from a live MySQL/Postgres schema, with its own semantic-release pipeline.
 
 ## Featured work
 
 | Project | What it is |
 |---|---|
-| [**Rustpaper**](https://github.com/ViniciusDev26/Rustpaper) | Wallpaper Engine reimplemented from scratch in Rust — Vulkan/wgpu rendering over Wayland |
-| [**microlink**](https://github.com/ViniciusDev26/microlink) | Tailscale-compatible VPN client for ESP32 in C — full ts2021 protocol, WireGuard, DERP relay, DISCO, STUN, memory-optimized for ~100KB SRAM |
-| [**ai-memory**](https://github.com/ViniciusDev26/ai-memory) | Long-term memory for agent coding CLIs, enabling handoff between different agent vendors |
-| [**homelab**](https://github.com/ViniciusDev26/homelab) | Self-hosted file server (Navidrome, Filebrowser, Samba) over a btrfs subvolume, backed by ai-memory |
-| [**er-diagram**](https://github.com/ViniciusDev26/er-diagram) | A GitHub Action that generates ER diagrams (Mermaid) directly from a PostgreSQL schema |
-| [**costify**](https://github.com/ViniciusDev26/costify) | Go platform for computing real product cost from recipes — quantity, unit and price per ingredient |
-| [**query-processor**](https://github.com/ViniciusDev26/query-processor) | SQL to Relational Algebra converter |
-| [**ts-compiler**](https://github.com/ViniciusDev26/ts-compiler) | A small compiler, built to actually understand how one works |
+| [**Rustpaper**](https://github.com/ViniciusDev26/Rustpaper) | Wallpaper Engine reimplemented from scratch in Rust — Vulkan/wgpu compositor and particle system over Wayland |
+| [**costify**](https://github.com/ViniciusDev26/costify) | Go + React platform (DDD) for real product costing and pricing in food businesses |
+| [**cashly**](https://github.com/ViniciusDev26/cashly) | Go + TypeScript personal finance tracker — installments, credit-card invoices, transaction groups |
+| [**query-processor**](https://github.com/ViniciusDev26/query-processor) | SQL parser and relational-algebra optimizer, with a visual query-plan explainer |
+| [**ts-compiler**](https://github.com/ViniciusDev26/ts-compiler) | A compiler built from scratch — lexer, parser, AST, and code generation |
+| [**er-diagram**](https://github.com/ViniciusDev26/er-diagram) | A GitHub Action that generates ER diagrams (Mermaid) directly from a live database schema |
+| [**homelab**](https://github.com/ViniciusDev26/homelab) | Self-hosted infrastructure — encrypted backups, systemd services, failover networking |
 
 ## Stack
 
-`Go` · `Rust` · `TypeScript` · `C` / `C++` · `Python` · `PostgreSQL` · `Docker` · `Neovim`
+`Go` · `Rust` · `TypeScript` · `PostgreSQL` · `Docker` · `Neovim`
 
 ## Reach me
 

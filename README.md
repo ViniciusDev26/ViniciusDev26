@@ -26,14 +26,6 @@ Based in Fortaleza, Brazil. Currently building backend platform at **[Sunne](htt
 | [**so-page-replacement-strategy**](https://github.com/ViniciusDev26/so-page-replacement-strategy) | OS page-replacement algorithms implemented and compared |
 | [**ts-compiler**](https://github.com/ViniciusDev26/ts-compiler) | A small compiler, built to actually understand how one works |
 
-## Currently upstream
-
-Contributing to projects I depend on rather than only consuming them:
-
-- [`nodejs/node`](https://github.com/nodejs/node)
-- [`nodejs/undici`](https://github.com/nodejs/undici)
-- [`CamM2325/microlink`](https://github.com/CamM2325/microlink)
-
 ## Stack
 
 `Go` · `Rust` · `TypeScript` · `C` / `C++` · `Python` · `PostgreSQL` · `Docker` · `Neovim`

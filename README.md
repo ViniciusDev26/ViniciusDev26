@@ -17,13 +17,11 @@ Based in Fortaleza, Brazil. Currently building backend platform at **[Sunne](htt
 |---|---|
 | [**Rustpaper**](https://github.com/ViniciusDev26/Rustpaper) | Wallpaper Engine reimplemented from scratch in Rust — Vulkan/wgpu rendering over Wayland |
 | [**microlink**](https://github.com/ViniciusDev26/microlink) | Tailscale-compatible VPN client for ESP32 in C — full ts2021 protocol, WireGuard, DERP relay, DISCO, STUN, memory-optimized for ~100KB SRAM |
-| [**bancada**](https://github.com/ViniciusDev26/bancada) | A cockpit for supervising AI coding agents across clients, accounts, and machines |
 | [**ai-memory**](https://github.com/ViniciusDev26/ai-memory) | Long-term memory for agent coding CLIs, enabling handoff between different agent vendors |
 | [**homelab**](https://github.com/ViniciusDev26/homelab) | Self-hosted file server (Navidrome, Filebrowser, Samba) over a btrfs subvolume, backed by ai-memory |
 | [**er-diagram**](https://github.com/ViniciusDev26/er-diagram) | A GitHub Action that generates ER diagrams (Mermaid) directly from a PostgreSQL schema |
 | [**costify**](https://github.com/ViniciusDev26/costify) | Go platform for computing real product cost from recipes — quantity, unit and price per ingredient |
 | [**query-processor**](https://github.com/ViniciusDev26/query-processor) | SQL to Relational Algebra converter |
-| [**so-page-replacement-strategy**](https://github.com/ViniciusDev26/so-page-replacement-strategy) | OS page-replacement algorithms implemented and compared |
 | [**ts-compiler**](https://github.com/ViniciusDev26/ts-compiler) | A small compiler, built to actually understand how one works |
 
 ## Stack

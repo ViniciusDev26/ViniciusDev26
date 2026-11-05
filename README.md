@@ -2,7 +2,7 @@
 
 Backend engineer who ends up one layer below wherever everyone else stops. I like understanding how things work by rebuilding them — a compiler, a query optimizer, a rendering engine — instead of just consuming the abstraction.
 
-Based in Fortaleza, Brazil. Backend engineer at **[Sunne](https://github.com/Sunne-Team)**.
+Based in Fortaleza, Brazil. Senior Backend Engineer at **[Sunne](https://github.com/Sunne-Team)**, where I work on the billing and payments microservices of a renewable-energy company — invoicing, boleto, Pix, bank transfers and automated utility-bill payments — on Node.js/TypeScript, PostgreSQL, MySQL, AWS SQS/S3 and GCP Pub/Sub, with TDD and Clean Architecture as the default. Before that, I spent years on PHP in production (Zend Framework 2 and Laravel), plus Node.js BFFs for mobile apps.
 
 ## What the commits actually show
 
@@ -24,7 +24,7 @@ Based in Fortaleza, Brazil. Backend engineer at **[Sunne](https://github.com/Sun
 
 ## Stack
 
-`TypeScript` · `Go` · `Rust` · `PostgreSQL` · `Docker` · `Neovim`
+`TypeScript` · `Node.js` · `PHP` · `Laravel` · `Go` · `Rust` · `PostgreSQL` · `MySQL` · `Docker` · `Neovim`
 
 ## Reach me
 
